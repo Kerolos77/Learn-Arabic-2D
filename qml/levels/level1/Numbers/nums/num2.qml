@@ -18,6 +18,27 @@ Scene{
             source: "../../../../../assets/img/imagges/two-for-kids.jpg"
             anchors.fill: parent
         }
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num1.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio11.play()
+
+            }
+       }
+
 
         //next button
         IconButton{

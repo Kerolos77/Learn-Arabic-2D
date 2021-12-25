@@ -21,6 +21,27 @@ Scene{
             source: "../../../../../assets/img/imagges/three-for-kids.jpg"
             anchors.fill: parent
         }
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num2.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio2.play()
+
+            }
+       }
+
         //next button
         IconButton{
 

@@ -19,7 +19,29 @@ Scene{
             id: jjh
             source: "../../../../../assets/img/imagges/eight-for-kids-number.jpg"
             anchors.fill: parent
-        }    //next button
+        }
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num7.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio7.play()
+
+            }
+       }
+
+        //next button
         IconButton{
 
             width:50

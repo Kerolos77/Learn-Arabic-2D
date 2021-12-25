@@ -18,6 +18,28 @@ Scene{
             source: "../../../../../assets/img/imagges/five-for-kids-number.jpg"
             anchors.fill: parent
     }
+
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num4.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio4.play()
+
+            }
+       }
+
         //next button
         IconButton{
 

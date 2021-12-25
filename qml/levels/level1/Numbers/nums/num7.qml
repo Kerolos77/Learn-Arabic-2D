@@ -18,7 +18,29 @@ Scene{
             id: jjh
             source: "../../../../../assets/img/imagges/seven-for-kids.jpg"
             anchors.fill: parent
-        }    //next button
+        }
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num6.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio6.play()
+
+            }
+       }
+
+        //next button
         IconButton{
 
             width:50

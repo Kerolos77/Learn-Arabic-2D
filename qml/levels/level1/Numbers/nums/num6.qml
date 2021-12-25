@@ -17,6 +17,27 @@ Scene{
             source: "../../../../../assets/img/imagges/six-for-kids-number.jpg"
             anchors.fill: parent
         }
+        //back button
+        IconButton{
+
+            width:50
+            height: 30
+
+            icon: IconType.arrowleft
+            onClicked: {
+
+                 var components = Qt.createComponent("../nums/num5.qml")
+
+                 var window = components.createObject(gameWindow)
+
+                 selectlevel.visible = false
+
+                 window.show
+                 audio5.play()
+
+            }
+       }
+
         IconButton{
 
             width:50

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.2, 2021-12-24T23:21:41. -->
+<!-- Written by QtCreator 4.11.2, 2021-12-25T00:45:40. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -287,8 +287,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/github/SpeakArabic/SpeakArabic-main/SpeakArabic/SpeakArabic.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/github/SpeakArabic/SpeakArabic-main/SpeakArabic/SpeakArabic.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SpeakArabic2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/github/Learn-Arabic-2D/SpeakArabic.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/github/Learn-Arabic-2D/SpeakArabic.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

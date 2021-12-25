@@ -28,7 +28,7 @@ Scene{
                  selectlevel.visible = false
 
                  window.show
-                 audio11.play()
+                 audio0.play()
 
             }
        }
@@ -67,7 +67,7 @@ Scene{
 
     }
     Audio{
-    id:audio11
+    id:audio0
     source:"../../../../../assets/snd/souunds/first.mp3"
 
     }
